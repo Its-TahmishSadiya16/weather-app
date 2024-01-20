@@ -1,0 +1,107 @@
+
+/* WeatherApp.css */
+
+.container {
+    width: 607px;
+    height: 650px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+   
+}
+.top-bar{
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+    margin-left: 15px;
+   
+}
+
+
+.cityInput {
+ display: flex;
+    width: 480px; 
+    height: 50px;
+    background: #dbfbf6;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+.search-icon {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+    
+}
+
+.search-icon img {
+    width: 20px;
+    height: auto;
+    /* Add more styles as needed */
+}
+
+.cloud{
+ width: 100px; /* Set the width of your image */
+ height: auto;
+}
+.weather-image{
+    margin-top: 20px; /* Adjust the space between the search bar and image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    font-weight: 400px;
+}
+.weather-location{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap:12px ;
+}
+
+.data{
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
